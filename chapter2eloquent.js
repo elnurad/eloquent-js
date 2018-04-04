@@ -14,7 +14,7 @@ My solution is below: */
 
 
 var hash = "";
-for (i=0; i<7; i++) {
+for (var i=0; i<7; i++) {
 	hash = hash+"#";
 console.log(hash);
 };
@@ -30,7 +30,7 @@ When you have that working, modify your program to print "FizzBuzz", for numbers
 
 
 
-for (i=1; i <= 100; i++) {
+for (var i=1; i <= 100; i++) {
 	if (i%3 !== 0 && i%5 !== 0) {
 		console.log(i);
 
@@ -44,7 +44,7 @@ for (i=1; i <= 100; i++) {
 
 //modification://
 
-for (i = 1; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
 	if (i%3 == 0 && i%5 == 0) {
 		console.log("buzzfizz");
 	} else {
